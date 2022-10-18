@@ -10,7 +10,7 @@
 
 ```
 bundle
-bundle exec main.rb
+bundle exec ruby main.rb
 ```
 
 **Пример работы программы:**
