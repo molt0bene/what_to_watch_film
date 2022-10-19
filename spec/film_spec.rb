@@ -1,6 +1,6 @@
 describe 'Film' do
   let(:film) {
-    Film.new 'Название', 'Режиссер', 1942
+    Film.new('Название', 'Режиссер', 1942)
   }
 
   describe '#new' do

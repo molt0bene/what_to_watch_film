@@ -21,8 +21,4 @@ class FilmCollection
         Film.new(film_title, producer.split('+').map(&:capitalize).join(' '), year)
       end
   end
-
-  def to_s
-    all_films.join("\n")
-  end
 end
