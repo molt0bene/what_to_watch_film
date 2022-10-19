@@ -14,6 +14,10 @@ class FilmCollection
         producer = tag.xpath('ul/li/a[contains(@href, "?tags=director")]').text
         year = tag.xpath('ul/li/a[contains(@href, "?tags=year")]').text
 
+        # иногда на сайте не указывают режиссера или год
+        producer = "Unknown Producer" if producer.empty?
+        year = "Unknown Year" if year.empty?
+
         Film.new(film_title, producer.split('+').map(&:capitalize).join(' '), year)
       end
   end
