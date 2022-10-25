@@ -16,3 +16,8 @@ bundle exec ruby main.rb
 **Пример работы программы:**
 
 ![Example Gif](https://media2.giphy.com/media/A8YJfVDK7v64qkkrBR/giphy.gif?cid=790b7611bd4c90cca6e52d87d353a57f1491cbb5f443ca35&rid=giphy.gif&ct=g)
+
+**Дополнительно**
+
+В ходе работы над проектом был использован `bundler`, гем `Nokogiri`, а также
+библиотека `rspec` для тестирования классов.
